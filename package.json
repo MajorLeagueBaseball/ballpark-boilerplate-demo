@@ -1,0 +1,21 @@
+{
+  "name": "ballpark-bootcamp-demo",
+  "version": "1.0.0",
+  "description": "Boilerplate template for Ballpark Bootcamp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js"
+  },
+  "author": {
+    "name": "Paolo Vaca",
+    "email": "paolo.vaca@mlb.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
