@@ -23,8 +23,8 @@ Clone Repository:
 
 Install dependencies:
 
-	cd ballpark-boilerplate
-    npm install
+	cd ballpark-boilerplate-demo
+    	npm install
 
 Start the server:
 
