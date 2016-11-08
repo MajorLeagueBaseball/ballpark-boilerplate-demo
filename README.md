@@ -17,13 +17,13 @@ Sample ExpressJS app to facilitate local development of web views for the Ballpa
 
 <summary><b>Quick start</b></summary><p>
 
-Clone Repository:
+Clone Repository (substitute *YOUR-NAME* with your actual name):
 
-	git clone git@github.com:MajorLeagueBaseball/ballpark-boilerplate-demo.git
+	git clone git@github.com:MajorLeagueBaseball/ballpark-boilerplate-demo.git YOUR-NAME
 
 Install dependencies:
 
-	cd ballpark-boilerplate-demo
+	cd YOUR-NAME
 	npm install
 
 Start the server:
