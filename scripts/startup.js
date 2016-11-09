@@ -53,7 +53,7 @@
             var payload = {
                 "TableName": "fed-baseball-bootcamp",
                 "Item": {
-                    "guid": bamHeaders['X-MLBAM-WUID'] || 'TEST',
+                    "guid": bamHeaders['x-mlbam-guid'] || 'TEST',
                     "vote": parseInt($("input[name=radio]:checked").val(), 10)
                 }
             };
