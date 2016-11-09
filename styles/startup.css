@@ -6,8 +6,17 @@
     display: none;
 }
 
-
-
-
+pre {
+    font-size: 11px;
+    background-color: #f8f8ff;
+    border: 1px solid silver;
+    padding: 7px;
+    margin: 7px;
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px 1em;
+    overflow: auto;
+}
 
 

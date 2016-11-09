@@ -2,6 +2,10 @@
 
     var mascotVote = {};
 
+    mascotVote.debug = function (data) {
+        $('#debug .debug-data').html('<p>Headers</p>' + JSON.stringify(bamHeaders, null, 4));
+    };
+    
     mascotVote.results = function (data) {
         var votes = data.Items;
         var tally = {
@@ -98,6 +102,7 @@
     };
 
     mascotVote.init();
+    mascotVote.debug();
 
 
 })();
