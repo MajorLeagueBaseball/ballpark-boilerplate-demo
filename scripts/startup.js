@@ -57,7 +57,7 @@
             var payload = {
                 "TableName": "fed-baseball-bootcamp",
                 "Item": {
-                    "guid": bamHeaders['x-mlbam-guid'] || 'TEST',
+                    "guid": bamHeaders['x-mlbam-wuid'] || 'TEST',
                     "vote": parseInt($("input[name=radio]:checked").val(), 10)
                 }
             };
@@ -98,6 +98,7 @@
         $('#go-back-to-app').on('click', function () {
             console.log("use hook");
             BamHooks.goBack();
+            BamHooks.sendMessage({"action": "Done clicked"});
         });
     };
 
