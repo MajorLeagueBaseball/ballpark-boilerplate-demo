@@ -95,10 +95,19 @@
 
         });
 
-        $('#go-back-to-app').on('click', function () {
-            console.log("use hook");
-            BamHooks.goBack();
-            BamHooks.sendMessage({"action": "Done clicked"});
+        $('#go-back').on('click', function () {
+            //window.BamHooks.goBack();
+            return true;
+        });
+
+        $('#send-msg').on('click', function () {
+            window.BamHooks.sendMessage({"action": "Done clicked"});
+            return true;
+        });
+
+        $('#launch-external').on('click', function () {
+            window.BamHooks.launchExternal('www.mlb.com');
+            return true;
         });
     };
 

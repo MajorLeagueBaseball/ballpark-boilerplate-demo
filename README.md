@@ -4,7 +4,6 @@ Sample ExpressJS app to facilitate local development of web views for the Ballpa
 
 <summary><b>Project Structure</b></summary><p>
 
-    |-- bootstrap-3.3.7-dist    Twitter Bootstrap Library
     |-- images                  Client side images
     |-- scripts                 Client side scripts
     	|--	bam-hooks.js		Hooks for use with Ballpark App
