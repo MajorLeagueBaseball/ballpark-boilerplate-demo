@@ -47,6 +47,12 @@
 
         $('#voteForm').on('submit', function () {
 
+            //disable btn
+            var btn = $("#submit-vote");
+
+            btn.prop('disabled', true);
+            btn.button('loading');
+
             // Stop form from submitting normally
             event.preventDefault();
 
@@ -76,8 +82,6 @@
 
             // Put the results in a div
             posting.done(function (data, textStatus, jqXHR ) {
-
-                $("#submit-vote").button('loading');
 
                 $.ajax({
                     url: url + '?TableName=fed-baseball-bootcamp'
